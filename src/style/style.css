@@ -1,0 +1,21 @@
+#home {
+  position: relative;
+  z-index: 1;
+  background-image: url('../assest/4.jpg');
+}
+
+#menu-hero {
+  position: relative;
+  z-index: 1;
+  background-image: url('../assest/5.jpg');
+}
+
+#home::before, #menu-hero::before{
+ content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.5);
+}
